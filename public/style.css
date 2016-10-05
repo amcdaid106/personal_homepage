@@ -1,0 +1,11 @@
+.navbar {
+  height: 75px;
+  width: 100%;
+  background-color: #F4F4F4;
+  padding: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+.navbar-name {
+  display: flex;
+}
