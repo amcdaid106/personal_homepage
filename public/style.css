@@ -1,11 +1,61 @@
-.navbar {
-  height: 75px;
+body {
+  background-color: #EBE5E5;
+  font-family: 'Raleway', sans-serif;
+}
+/*a {
+  color: #333333;
+}*/
+.name-and-title {
+  padding: 10px;
+  margin: 20px 0 100px 0;
+  background-color: #AE5461;
+  width: 33%;
+  border-radius: 5px;
+}
+.name-and-title > h1, h4 {
+  /*font-size: 100%;*/
+}
+.big-profile-pic > img {
+  border-radius: 50%;
   width: 100%;
-  background-color: #F4F4F4;
-  padding: 20px;
-  display: flex;
-  /*justify-content: space-between;*/
+  /*margin-bottom: 200px;*/
 }
-.navbar-name {
-  display: flex;
+.three-circles {
+  position:relative;
+  transform: translateY(20%);
 }
+.small-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #AE5461;
+  margin: 20px;
+}
+.small-circle > a {
+  color: #333333;
+}
+.small-circle > a:hover {
+    color: #23527c;
+}
+.small-circle > a > h2, i {
+  text-align: center;
+}
+.small-circle > a > h2 {
+  padding-top: 2.8em;
+}
+.small-circle i {
+  position: relative;
+  top: 42%;
+  font-size: 40px;
+  left: 42%;
+}
+
+
+
+
+
+
+
+
+
+
