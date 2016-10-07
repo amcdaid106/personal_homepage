@@ -1,6 +1,6 @@
 body {
   background-color: #EBE5E5;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .name-and-title {
   padding: 10px;
@@ -9,13 +9,17 @@ body {
   width: 33%;
   border-radius: 5px;
 }
+.name-and-title > h1, h4 {
+  /*font-size: 100%;*/
+}
 .big-profile-pic > img {
   border-radius: 50%;
   width: 100%;
+  /*margin-bottom: 200px;*/
 }
 .three-circles {
-  display: flex;
-
+  position:relative;
+  transform: translateY(20%);
 }
 .small-circle {
   width: 200px;
@@ -23,4 +27,13 @@ body {
   border-radius: 50%;
   background: #AE5461;
   margin: 20px;
+}
+.small-circle > h2, i {
+  position: relative;
+  top: 42%;
+  text-align: center;
+}
+.small-circle i {
+  font-size: 40px;
+  left: 42%;
 }
