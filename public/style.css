@@ -1,0 +1,26 @@
+body {
+  background-color: #EBE5E5;
+  font-family: 'Ubuntu', sans-serif;
+}
+.name-and-title {
+  padding: 10px;
+  margin: 20px 0 100px 0;
+  background-color: #AE5461;
+  width: 33%;
+  border-radius: 5px;
+}
+.big-profile-pic > img {
+  border-radius: 50%;
+  width: 100%;
+}
+.three-circles {
+  display: flex;
+
+}
+.small-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #AE5461;
+  margin: 20px;
+}
