@@ -2,6 +2,9 @@ body {
   background-color: #EBE5E5;
   font-family: 'Raleway', sans-serif;
 }
+/*a {
+  color: #333333;
+}*/
 .name-and-title {
   padding: 10px;
   margin: 20px 0 100px 0;
@@ -28,12 +31,31 @@ body {
   background: #AE5461;
   margin: 20px;
 }
-.small-circle > h2, i {
-  position: relative;
-  top: 42%;
+.small-circle > a {
+  color: #333333;
+}
+.small-circle > a:hover {
+    color: #23527c;
+}
+.small-circle > a > h2, i {
   text-align: center;
 }
+.small-circle > a > h2 {
+  padding-top: 2.8em;
+}
 .small-circle i {
+  position: relative;
+  top: 42%;
   font-size: 40px;
   left: 42%;
 }
+
+
+
+
+
+
+
+
+
+
