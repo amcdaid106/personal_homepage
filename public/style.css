@@ -2,14 +2,10 @@ body {
   background-color: #EBE5E5;
   font-family: 'Raleway', sans-serif;
 }
-/*a {
-  color: #333333;
-}*/
 .name-and-title {
   padding: 10px;
   margin: 20px 0 100px 0;
   background-color: #AE5461;
-  width: 33%;
   border-radius: 5px;
 }
 .name-and-title > h1, h4 {
@@ -18,40 +14,70 @@ body {
 .big-profile-pic > img {
   border-radius: 50%;
   width: 100%;
-  /*margin-bottom: 200px;*/
 }
-.three-circles {
-  position:relative;
-  transform: translateY(20%);
-}
-.small-circle {
+.link-container {
+  margin: 0 auto;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   background: #AE5461;
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.small-circle > a {
+.link-container > a {
   color: #333333;
 }
-.small-circle > a:hover {
-    color: #23527c;
+.link-container > a:hover {
+  color: #23527c;
 }
-.small-circle > a > h2, i {
-  text-align: center;
+.link-container > a > h2, i {
+  /*text-align: center;*/
 }
-.small-circle > a > h2 {
-  padding-top: 2.8em;
+.link-container > a > h2 {
+  /*padding-top: 2.8em;*/
 }
-.small-circle i {
-  position: relative;
-  top: 42%;
+.link-container i {
+ /* position: relative;
+  top: 42%;*/
   font-size: 40px;
-  left: 42%;
+  /*left: 42%;*/
 }
 
 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
 
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .link-container {
+    width: 175px;
+    height: 175px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .link-container {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
 
 
 
