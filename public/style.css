@@ -4,7 +4,7 @@ body {
 }
 .name-and-title {
   padding: 10px;
-  margin: 20px 0 100px 0;
+  margin: 20px 0 50px 0;
   background-color: #AE5461;
   border-radius: 5px;
 }
@@ -17,8 +17,8 @@ body {
 }
 .link-container {
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 185px;
+  height: 185px;
   border-radius: 50%;
   background: #AE5461;
   display: flex;
@@ -31,17 +31,8 @@ body {
 .link-container > a:hover {
   color: #23527c;
 }
-.link-container > a > h2, i {
-  /*text-align: center;*/
-}
-.link-container > a > h2 {
-  /*padding-top: 2.8em;*/
-}
 .link-container i {
- /* position: relative;
-  top: 42%;*/
   font-size: 40px;
-  /*left: 42%;*/
 }
 
 
@@ -50,21 +41,22 @@ body {
 
 
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
-
+  .link-container {
+    width: 130px;
+    height: 130px;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   .link-container {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
   }
 
-}
+/*}*/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
