@@ -8,12 +8,12 @@ body {
   background-color: #AE5461;
   border-radius: 5px;
 }
-.name-and-title > h1, h4 {
-  /*font-size: 100%;*/
-}
 .big-profile-pic > img {
   border-radius: 50%;
   width: 100%;
+}
+.links {
+  display: flex;
 }
 .link-container {
   margin: 0 auto;
